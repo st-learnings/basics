@@ -1,0 +1,13 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: basics
+  #namespace: st-learnings
+spec:
+  template:
+    spec:
+      containers:
+      - name: basics-container
+        image: basics:latest
+        imagePullPolicy: Never
+      restartPolicy: Never
