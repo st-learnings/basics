@@ -8,6 +8,6 @@ spec:
     spec:
       containers:
       - name: basics-container
-        image: basics:latest
+        image: sptarigopula/st-learnings:basics
         imagePullPolicy: Never
       restartPolicy: Never

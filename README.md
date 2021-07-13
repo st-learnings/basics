@@ -49,3 +49,6 @@ Create a simple python project and containerize it.
 6. docker rm $(docker ps -a) #to remove all of the containers
 7. docker rmi $(docker image ls) #to remove all of the images
 
+#Pushing a docker image to docker repository
+0. docker build -t sptarigopula/st-learnings:basics . #sptarigopula/st-learnings is the docker repo
+1. docker push sptarigopula/st-learnings:basics #push the image to the repository
